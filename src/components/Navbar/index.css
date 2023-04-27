@@ -1,0 +1,25 @@
+/* Write your CSS here */
+
+.website-logo {
+  height: 40px;
+  background-size: cover;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #dcdcdc;
+}
+
+.tabs-container {
+  display: flex;
+  list-style-type: none;
+}
+
+.tab-content {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 500;
+  margin-right: 15px;
+}
