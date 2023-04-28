@@ -5,11 +5,18 @@
   background-size: cover;
 }
 
-.navbar-container {
+.navbar-container-light {
   display: flex;
   justify-content: space-between;
   padding: 20px;
   background-color: #dcdcdc;
+}
+
+.navbar-container-dark {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #333333;
 }
 
 .tabs-container {
@@ -17,9 +24,25 @@
   list-style-type: none;
 }
 
-.tab-content {
+.tab-content-light {
   color: #000000;
   font-size: 25px;
   font-weight: 500;
   margin-right: 15px;
+}
+
+.tab-content-dark {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 500;
+  margin-right: 15px;
+}
+
+.link-item {
+  text-decoration: none;
+}
+
+.theme-btn {
+  background-color: transparent;
+  border-width: 0;
 }

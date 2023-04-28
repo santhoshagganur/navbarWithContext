@@ -1,1 +1,21 @@
 /* Write your CSS here */
+
+.home-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+
+.home-img {
+  height: 150px;
+  background-size: cover;
+}
+
+.home-heading {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 500;
+}
