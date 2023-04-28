@@ -13,25 +13,25 @@ const About = () => (
           {isDarkTheme ? (
             <>
               <Navbar />
-              <div className="about-container">
+              <div className="about-container-dark">
                 <img
                   src="https://assets.ccbp.in/frontend/react-js/about-dark-img.png"
                   className="about-img"
                   alt="about"
                 />
-                <h1 className="about-heading"> Home </h1>
+                <h1 className="about-heading-dark"> About </h1>
               </div>
             </>
           ) : (
             <>
               <Navbar />
-              <div className="about-container">
+              <div className="about-container-light">
                 <img
                   src="https://assets.ccbp.in/frontend/react-js/about-light-img.png"
                   className="about-img"
                   alt="about"
                 />
-                <h1 className="about-heading"> Home </h1>
+                <h1 className="about-heading-light"> About </h1>
               </div>
             </>
           )}

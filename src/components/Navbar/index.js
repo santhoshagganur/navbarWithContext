@@ -20,7 +20,7 @@ const Navbar = () => (
               <img
                 src="https://assets.ccbp.in/frontend/react-js/website-logo-dark-theme-img.png"
                 alt="website-logo"
-                className="website-logo"
+                className="website logo"
               />
 
               <ul className="tabs-container">
@@ -32,7 +32,12 @@ const Navbar = () => (
                 </Link>
               </ul>
 
-              <button type="button" className="theme-btn" onClick={changeTheme}>
+              <button
+                type="button"
+                className="theme-btn"
+                onClick={changeTheme}
+                testid="theme"
+              >
                 <img
                   src="https://assets.ccbp.in/frontend/react-js/light-theme-img.png"
                   className="website-logo"
@@ -44,7 +49,7 @@ const Navbar = () => (
             <div className="navbar-container-light">
               <img
                 src="https://assets.ccbp.in/frontend/react-js/website-logo-light-theme-img.png"
-                alt="website-logo"
+                alt="website logo"
                 className="website-logo"
               />
 
@@ -57,7 +62,12 @@ const Navbar = () => (
                 </Link>
               </ul>
 
-              <button type="button" className="theme-btn" onClick={changeTheme}>
+              <button
+                type="button"
+                className="theme-btn"
+                onClick={changeTheme}
+                testid="theme"
+              >
                 <img
                   src="https://assets.ccbp.in/frontend/react-js/dark-theme-img.png"
                   className="website-logo"
